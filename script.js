@@ -59,7 +59,7 @@ const aircraftTypes = {
 };
 
 function initMap() {
-    map = L.map('map').setView([40.0691, 45.0382], 7);
+    map = L.map('map').setView([42.6687244047767, 21.156714562994324], 13);
     
     currentTileLayer = L.tileLayer(tileLayers['OpenStreetMap'].url, {
         maxZoom: 19,
